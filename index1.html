@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-list New</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="hide">
+        <div class="nav">
+            <h1>Tasks <span class="color_blue">List</span></h1>
+        </div>
+        <div class="add_task">
+            <a href="index1.html"><i class="fa-solid fa-circle-plus color_blue"></i><span class="tex_center">Add New Task</span></a>
+        </div>
+        <br>
+        <br>
+        <div class="container">
+            <div class="flex">
+                <div class="card">
+                    <h4><a href="#">Trip to paris</a></h4>
+                    <hr class="hr">
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked name="trip" id="checkbox">
+                            <label for="trip" id="label">Visit Church</label>
+                            <br>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Shopping" id="checkbox">
+                            <label for="Shopping">Shopping</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4><a href="#">My To Do List</a></h4>
+                    <hr>
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked name="todo_list" id="checkbox">
+                            <label for="todo_list" id="label">Visit Supermarket</label>
+                            <br>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="todo_list" id="checkbox">
+                            <label for="todo_list">BuyVegetables</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4><a href="#">Movies I will Watch</a></h4>
+                    <hr>
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked name="movies" id="checkbox">
+                            <label for="movies" id="label">Stranger Things 4</label>
+                            <br>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="movies" id="checkbox">
+                            <label for="movies">Avengers Endgame</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4><a href="#">Daily Morning Routine for...</a></h4>
+                    <hr>
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked name="Morning_ride" id="checkbox">
+                            <label for="Morning_ride" id="label">Wake up at 6 AM</label>
+                            <br>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="Morning_ride" id="checkbox">
+                            <label for="Morning_ride">Sleep at 10 PM</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4><a href="#">Books to Read</a></h4>
+                    <hr>
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked name="book" id="checkbox">
+                            <label for="book" id="label">Design of Everyday</label>
+                            <br>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="book" id="checkbox">
+                            <label for="book">Alchemist</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <iframe src="index.html" class="iframe" frameborder="0"></iframe> -->
+    <div class="card2">
+        <h4><a href="#" class="color_blue">Add New Task</a></h4>
+        <a href="index2.html" class="close"><i class="fa-solid fa-xmark"></i></a>
+        <hr class="hr">
+        <div class="ul">
+            <form action="index2.html" method="get">
+                <input type="text" name="Title" placeholder="Learn C++" id="entry">
+                <!-- <input type="submit" value="Add Task" id="add_todo"> -->
+                <a href="index2.html" id="add_todo"><i class="fa-solid fa-plus"></i> Add Task</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
